@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1350" width="100%" height="100%">
+  <defs>
+    <!-- Background styling and filters -->
+    <style>
+      .bg { fill: #09090b; }
+      .box { fill: #18181b; stroke: #27272a; stroke-width: 1.5; rx: 12px; }
+      .box-active { fill: #1e1b4b; stroke: #a855f7; stroke-width: 2; rx: 12px; }
+      .text-title { font-family: 'Outfit', 'Inter', sans-serif; font-size: 14px; font-weight: bold; fill: #ffffff; }
+      .text-sub { font-family: 'Inter', sans-serif; font-size: 11px; fill: #a1a1aa; }
+      .text-accent { font-family: 'Outfit', sans-serif; font-size: 12px; font-weight: bold; fill: #a855f7; }
+      .text-accent-cyan { font-family: 'Outfit', sans-serif; font-size: 12px; font-weight: bold; fill: #06b6d4; }
+      .arrow { stroke: #27272a; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .arrow-active { stroke: #a855f7; stroke-width: 2; fill: none; marker-end: url(#arrowhead-active); }
+      .arrow-cyan { stroke: #06b6d4; stroke-width: 2; fill: none; marker-end: url(#arrowhead-cyan); }
+    </style>
+
+    <!-- Arrow head markers -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#27272a" />
+    </marker>
+    <marker id="arrowhead-active" markerWidth="10" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#a855f7" />
+    </marker>
+    <marker id="arrowhead-cyan" markerWidth="10" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#06b6d4" />
+    </marker>
+  </defs>
+
+  <!-- Solid Background -->
+  <rect width="1000" height="1350" class="bg" />
+
+  <!-- MAIN SYSTEM TITLE -->
+  <text x="500" y="50" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="24" font-weight="extrabold" fill="url(#title-grad)" bg-clip-text="true">
+    CROSS-LANGUAGE SEMANTIC CODE CLONE DETECTOR
+  </text>
+  <text x="500" y="75" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" fill="#a1a1aa" letter-spacing="2">
+    END-TO-END PIPELINE ARCHITECTURE FLOW
+  </text>
+
+  <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#a855f7" />
+    <stop offset="50%" stop-color="#ec4899" />
+    <stop offset="100%" stop-color="#06b6d4" />
+  </linearGradient>
+
+  <!-- ==================== STAGE 1: COMPILATION ==================== -->
+  <g transform="translate(100, 120)">
+    <rect width="800" height="200" class="box" />
+    <text x="30" y="35" class="text-accent">STAGE 1: LLVM TOOLCHAIN COMPILATION &amp; VALIDATION</text>
+    
+    <!-- Compiler Detector -->
+    <g transform="translate(40, 60)">
+      <rect width="210" height="100" class="box-active" />
+      <text x="20" y="35" class="text-title">Compiler Detector</text>
+      <text x="20" y="55" class="text-sub">Locates system absolute paths</text>
+      <text x="20" y="75" class="text-sub">clang/rustc/flang checks</text>
+    </g>
+
+    <!-- Compiler execution -->
+    <g transform="translate(295, 60)">
+      <rect width="210" height="100" class="box-active" />
+      <text x="20" y="35" class="text-title">LLVM Compilation</text>
+      <text x="20" y="55" class="text-sub">Runs native CLI compiles</text>
+      <text x="20" y="75" class="text-sub">Emits optimized .ll IR files</text>
+    </g>
+
+    <!-- Validator -->
+    <g transform="translate(550, 60)">
+      <rect width="210" height="100" class="box-active" />
+      <text x="20" y="35" class="text-title">LLVM Validator</text>
+      <text x="20" y="55" class="text-sub">Validates instructions &amp; format</text>
+      <text x="20" y="75" class="text-sub">Throws LLVMCompilationError</text>
+    </g>
+
+    <!-- Connection lines -->
+    <path d="M 250 110 L 295 110" class="arrow-active" />
+    <path d="M 505 110 L 550 110" class="arrow-cyan" />
+  </g>
+
+  <path d="M 500 320 L 500 370" class="arrow-active" />
+
+  <!-- ==================== STAGE 2: IR REPRESENTATION ==================== -->
+  <g transform="translate(100, 370)">
+    <rect width="800" height="200" class="box" />
+    <text x="30" y="35" class="text-accent-cyan">STAGE 2: INTERMEDIATE REPRESENTATION EXTRACTION &amp; NORMALIZATION</text>
+    
+    <!-- IR Extractor -->
+    <g transform="translate(40, 60)">
+      <rect width="210" height="100" class="box-active" />
+      <text x="20" y="35" class="text-title">IR Extractor</text>
+      <text x="20" y="55" class="text-sub">Isolates target functions</text>
+      <text x="20" y="75" class="text-sub">Strips metadata blocks</text>
+    </g>
+
+    <!-- IR Normalizer -->
+    <g transform="translate(295, 60)">
+      <rect width="210" height="100" class="box-active" />
+      <text x="20" y="35" class="text-title">IR Normalizer</text>
+      <text x="20" y="55" class="text-sub">Strips variable names</text>
+      <text x="20" y="75" class="text-sub">Registers type-independent tokens</text>
+    </g>
+
+    <!-- CFG & DFG Builders -->
+    <g transform="translate(550, 60)">
+      <rect width="210" height="100" class="box-active" />
+      <text x="20" y="35" class="text-title">CFG / DFG Graph Builders</text>
+      <text x="20" y="55" class="text-sub">Control &amp; Data Flow graphs</text>
+      <text x="20" y="75" class="text-sub">WL structural fingerprinting</text>
+    </g>
+
+    <!-- Connection lines -->
+    <path d="M 250 110 L 295 110" class="arrow-cyan" />
+    <path d="M 505 110 L 550 110" class="arrow-active" />
+  </g>
+
+  <path d="M 500 570 L 500 620" class="arrow-active" />
+
+  <!-- ==================== STAGE 3: SEMANTIC REPRESENTATION ==================== -->
+  <g transform="translate(100, 620)">
+    <rect width="800" height="240" class="box" />
+    <text x="30" y="35" class="text-accent">STAGE 3: CANONICAL SEMANTIC PROGRAM REPRESENTATION (SPR)</text>
+    
+    <!-- Intent/Domain -->
+    <g transform="translate(40, 60)">
+      <rect width="210" height="120" class="box-active" />
+      <text x="20" y="35" class="text-title">Intent &amp; Domain</text>
+      <text x="20" y="55" class="text-sub">IntentDetector / domain</text>
+      <text x="20" y="75" class="text-sub">taxonomy matching</text>
+      <text x="20" y="95" class="text-sub">Jaccard lexical vocab</text>
+    </g>
+
+    <!-- Purpose/Signatures -->
+    <g transform="translate(295, 60)">
+      <rect width="210" height="120" class="box-active" />
+      <text x="20" y="35" class="text-title">Purpose &amp; Signatures</text>
+      <text x="20" y="55" class="text-sub">PurposeClassifier / summary</text>
+      <text x="20" y="75" class="text-sub">FunctionalSignature</text>
+      <text x="20" y="95" class="text-sub">I/O matching matrices</text>
+    </g>
+
+    <!-- Operations/Behavior -->
+    <g transform="translate(550, 60)">
+      <rect width="210" height="120" class="box-active" />
+      <text x="20" y="35" class="text-title">Operations &amp; Behavior</text>
+      <text x="20" y="55" class="text-sub">OperationPipeline</text>
+      <text x="20" y="75" class="text-sub">BehavioralPatterns</text>
+      <text x="20" y="95" class="text-sub">Loops, branch recursion checks</text>
+    </g>
+
+    <path d="M 250 120 L 295 120" class="arrow-cyan" />
+    <path d="M 505 120 L 550 120" class="arrow-active" />
+  </g>
+
+  <path d="M 500 860 L 500 910" class="arrow-active" />
+
+  <!-- ==================== STAGE 4: SIMILARITY & API ==================== -->
+  <g transform="translate(100, 910)">
+    <rect width="800" height="200" class="box" />
+    <text x="30" y="35" class="text-accent-cyan">STAGE 4: SIMILARITY SCORING ENGINE &amp; REST ENDPOINTS</text>
+    
+    <!-- Similarity Engine -->
+    <g transform="translate(40, 60)">
+      <rect width="210" height="100" class="box-active" />
+      <text x="20" y="35" class="text-title">Similarity Engine</text>
+      <text x="20" y="55" class="text-sub">Synthesized weights formula</text>
+      <text x="20" y="75" class="text-sub">Anti-False-Positive capping</text>
+    </g>
+
+    <!-- FastAPI REST Server -->
+    <g transform="translate(295, 60)">
+      <rect width="210" height="100" class="box-active" />
+      <text x="20" y="35" class="text-title">FastAPI Local Server</text>
+      <text x="20" y="55" class="text-sub">Serves port 8000 endpoints</text>
+      <text x="20" y="75" class="text-sub">Compare, analyze, evaluate</text>
+    </g>
+
+    <!-- Local reports -->
+    <g transform="translate(550, 60)">
+      <rect width="210" height="100" class="box-active" />
+      <text x="20" y="35" class="text-title">Reports Persistence</text>
+      <text x="20" y="55" class="text-sub">database-free persistence</text>
+      <text x="20" y="75" class="text-sub">outputs/reports.json logs</text>
+    </g>
+
+    <path d="M 250 110 L 295 110" class="arrow-active" />
+    <path d="M 505 110 L 550 110" class="arrow-cyan" />
+  </g>
+
+  <path d="M 500 1110 L 500 1160" class="arrow-active" />
+
+  <!-- ==================== STAGE 5: FRONTEND ==================== -->
+  <g transform="translate(100, 1160)">
+    <rect width="800" height="130" class="box-active" />
+    <text x="30" y="35" class="text-title" font-size="16">STAGE 5: INTERACTIVE REACT FRONTEND DASHBOARD (Port 5173)</text>
+    <text x="30" y="65" class="text-sub">Fully animated dark mode interface built with React, TypeScript, TailwindCSS, Monaco Editor (side-by-side codes preview),</text>
+    <text x="30" y="85" class="text-sub">React Flow (interactive Control/Data Flow graphs zoom &amp; pan), and Recharts (baseline evaluation comparison matrices).</text>
+  </g>
+</svg>

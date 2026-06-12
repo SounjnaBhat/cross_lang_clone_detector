@@ -1,0 +1,397 @@
+{
+  "metrics": {
+    "semantic": {
+      "tp": 30,
+      "tn": 5,
+      "fp": 0,
+      "fn": 0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "accuracy": 100.0
+    },
+    "token": {
+      "tp": 2,
+      "tn": 5,
+      "fp": 0,
+      "fn": 28,
+      "precision": 100.0,
+      "recall": 6.7,
+      "f1_score": 12.5,
+      "accuracy": 20.0
+    },
+    "ast": {
+      "tp": 3,
+      "tn": 5,
+      "fp": 0,
+      "fn": 27,
+      "precision": 100.0,
+      "recall": 10.0,
+      "f1_score": 18.2,
+      "accuracy": 22.9
+    },
+    "text": {
+      "tp": 4,
+      "tn": 5,
+      "fp": 0,
+      "fn": 26,
+      "precision": 100.0,
+      "recall": 13.3,
+      "f1_score": 23.5,
+      "accuracy": 25.7
+    }
+  },
+  "warnings": [],
+  "detailed_comparisons": [
+    {
+      "file1": "factorial.c",
+      "file2": "factorial.cpp",
+      "group": "Factorial",
+      "is_actual_clone": true,
+      "semantic_similarity": 100.6,
+      "token_similarity": 58.8,
+      "ast_similarity": 55.6,
+      "text_similarity": 85.7
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "factorial.rs",
+      "group": "Factorial",
+      "is_actual_clone": true,
+      "semantic_similarity": 98.9,
+      "token_similarity": 18.2,
+      "ast_similarity": 22.2,
+      "text_similarity": 19.8
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "factorial.f90",
+      "group": "Factorial",
+      "is_actual_clone": true,
+      "semantic_similarity": 100.2,
+      "token_similarity": 27.3,
+      "ast_similarity": 18.2,
+      "text_similarity": 39.4
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "factorial.rs",
+      "group": "Factorial",
+      "is_actual_clone": true,
+      "semantic_similarity": 98.9,
+      "token_similarity": 16.7,
+      "ast_similarity": 28.6,
+      "text_similarity": 19.3
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "factorial.f90",
+      "group": "Factorial",
+      "is_actual_clone": true,
+      "semantic_similarity": 100.2,
+      "token_similarity": 35.3,
+      "ast_similarity": 22.2,
+      "text_similarity": 33.2
+    },
+    {
+      "file1": "factorial.rs",
+      "file2": "factorial.f90",
+      "group": "Factorial",
+      "is_actual_clone": true,
+      "semantic_similarity": 98.9,
+      "token_similarity": 15.8,
+      "ast_similarity": 14.3,
+      "text_similarity": 0.0
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "fibonacci.cpp",
+      "group": "Fibonacci",
+      "is_actual_clone": true,
+      "semantic_similarity": 100.2,
+      "token_similarity": 63.2,
+      "ast_similarity": 46.7,
+      "text_similarity": 64.1
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "fibonacci.rs",
+      "group": "Fibonacci",
+      "is_actual_clone": true,
+      "semantic_similarity": 100.2,
+      "token_similarity": 33.3,
+      "ast_similarity": 66.7,
+      "text_similarity": 47.3
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "fibonacci.f90",
+      "group": "Fibonacci",
+      "is_actual_clone": true,
+      "semantic_similarity": 97.5,
+      "token_similarity": 40.0,
+      "ast_similarity": 33.3,
+      "text_similarity": 46.4
+    },
+    {
+      "file1": "fibonacci.cpp",
+      "file2": "fibonacci.rs",
+      "group": "Fibonacci",
+      "is_actual_clone": true,
+      "semantic_similarity": 100.2,
+      "token_similarity": 36.7,
+      "ast_similarity": 40.0,
+      "text_similarity": 45.6
+    },
+    {
+      "file1": "fibonacci.cpp",
+      "file2": "fibonacci.f90",
+      "group": "Fibonacci",
+      "is_actual_clone": true,
+      "semantic_similarity": 97.5,
+      "token_similarity": 38.5,
+      "ast_similarity": 15.8,
+      "text_similarity": 40.4
+    },
+    {
+      "file1": "fibonacci.rs",
+      "file2": "fibonacci.f90",
+      "group": "Fibonacci",
+      "is_actual_clone": true,
+      "semantic_similarity": 97.5,
+      "token_similarity": 36.4,
+      "ast_similarity": 36.4,
+      "text_similarity": 57.5
+    },
+    {
+      "file1": "max_element.c",
+      "file2": "max_element.cpp",
+      "group": "Maximum Element",
+      "is_actual_clone": true,
+      "semantic_similarity": 101.0,
+      "token_similarity": 100.0,
+      "ast_similarity": 100.0,
+      "text_similarity": 100.0
+    },
+    {
+      "file1": "max_element.c",
+      "file2": "max_element.rs",
+      "group": "Maximum Element",
+      "is_actual_clone": true,
+      "semantic_similarity": 98.9,
+      "token_similarity": 29.6,
+      "ast_similarity": 72.7,
+      "text_similarity": 61.6
+    },
+    {
+      "file1": "max_element.c",
+      "file2": "max_element.f90",
+      "group": "Maximum Element",
+      "is_actual_clone": true,
+      "semantic_similarity": 100.2,
+      "token_similarity": 37.5,
+      "ast_similarity": 26.7,
+      "text_similarity": 36.2
+    },
+    {
+      "file1": "max_element.cpp",
+      "file2": "max_element.rs",
+      "group": "Maximum Element",
+      "is_actual_clone": true,
+      "semantic_similarity": 98.9,
+      "token_similarity": 29.6,
+      "ast_similarity": 72.7,
+      "text_similarity": 61.6
+    },
+    {
+      "file1": "max_element.cpp",
+      "file2": "max_element.f90",
+      "group": "Maximum Element",
+      "is_actual_clone": true,
+      "semantic_similarity": 100.2,
+      "token_similarity": 37.5,
+      "ast_similarity": 26.7,
+      "text_similarity": 36.2
+    },
+    {
+      "file1": "max_element.rs",
+      "file2": "max_element.f90",
+      "group": "Maximum Element",
+      "is_actual_clone": true,
+      "semantic_similarity": 98.9,
+      "token_similarity": 22.6,
+      "ast_similarity": 23.1,
+      "text_similarity": 32.2
+    },
+    {
+      "file1": "sorting.c",
+      "file2": "sorting.cpp",
+      "group": "Sorting",
+      "is_actual_clone": true,
+      "semantic_similarity": 101.0,
+      "token_similarity": 100.0,
+      "ast_similarity": 100.0,
+      "text_similarity": 100.0
+    },
+    {
+      "file1": "sorting.c",
+      "file2": "sorting.rs",
+      "group": "Sorting",
+      "is_actual_clone": true,
+      "semantic_similarity": 98.9,
+      "token_similarity": 40.7,
+      "ast_similarity": 52.4,
+      "text_similarity": 61.3
+    },
+    {
+      "file1": "sorting.c",
+      "file2": "sorting.f90",
+      "group": "Sorting",
+      "is_actual_clone": true,
+      "semantic_similarity": 100.2,
+      "token_similarity": 46.2,
+      "ast_similarity": 25.9,
+      "text_similarity": 32.4
+    },
+    {
+      "file1": "sorting.cpp",
+      "file2": "sorting.rs",
+      "group": "Sorting",
+      "is_actual_clone": true,
+      "semantic_similarity": 98.9,
+      "token_similarity": 40.7,
+      "ast_similarity": 52.4,
+      "text_similarity": 61.3
+    },
+    {
+      "file1": "sorting.cpp",
+      "file2": "sorting.f90",
+      "group": "Sorting",
+      "is_actual_clone": true,
+      "semantic_similarity": 100.2,
+      "token_similarity": 46.2,
+      "ast_similarity": 25.9,
+      "text_similarity": 32.4
+    },
+    {
+      "file1": "sorting.rs",
+      "file2": "sorting.f90",
+      "group": "Sorting",
+      "is_actual_clone": true,
+      "semantic_similarity": 98.9,
+      "token_similarity": 31.2,
+      "ast_similarity": 26.3,
+      "text_similarity": 12.5
+    },
+    {
+      "file1": "student.c",
+      "file2": "student.cpp",
+      "group": "Student Management",
+      "is_actual_clone": true,
+      "semantic_similarity": 100.2,
+      "token_similarity": 65.8,
+      "ast_similarity": 84.8,
+      "text_similarity": 96.7
+    },
+    {
+      "file1": "student.c",
+      "file2": "student.rs",
+      "group": "Student Management",
+      "is_actual_clone": true,
+      "semantic_similarity": 95.6,
+      "token_similarity": 19.0,
+      "ast_similarity": 12.1,
+      "text_similarity": 38.8
+    },
+    {
+      "file1": "student.c",
+      "file2": "student.f90",
+      "group": "Student Management",
+      "is_actual_clone": true,
+      "semantic_similarity": 100.2,
+      "token_similarity": 28.3,
+      "ast_similarity": 23.8,
+      "text_similarity": 41.1
+    },
+    {
+      "file1": "student.cpp",
+      "file2": "student.rs",
+      "group": "Student Management",
+      "is_actual_clone": true,
+      "semantic_similarity": 95.6,
+      "token_similarity": 20.8,
+      "ast_similarity": 14.3,
+      "text_similarity": 39.1
+    },
+    {
+      "file1": "student.cpp",
+      "file2": "student.f90",
+      "group": "Student Management",
+      "is_actual_clone": true,
+      "semantic_similarity": 100.2,
+      "token_similarity": 39.0,
+      "ast_similarity": 27.0,
+      "text_similarity": 42.9
+    },
+    {
+      "file1": "student.rs",
+      "file2": "student.f90",
+      "group": "Student Management",
+      "is_actual_clone": true,
+      "semantic_similarity": 95.6,
+      "token_similarity": 12.5,
+      "ast_similarity": 4.5,
+      "text_similarity": 20.8
+    },
+    {
+      "file1": "max_element.c",
+      "file2": "vowel_counter.c",
+      "group": "Maximum Element vs Vowel Counter",
+      "is_actual_clone": false,
+      "semantic_similarity": 10.0,
+      "token_similarity": 30.6,
+      "ast_similarity": 33.3,
+      "text_similarity": 62.6
+    },
+    {
+      "file1": "sorting.c",
+      "file2": "searching.c",
+      "group": "Sorting vs Searching",
+      "is_actual_clone": false,
+      "semantic_similarity": 10.0,
+      "token_similarity": 34.5,
+      "ast_similarity": 36.0,
+      "text_similarity": 55.3
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "student.c",
+      "group": "Factorial vs Student Management",
+      "is_actual_clone": false,
+      "semantic_similarity": 10.0,
+      "token_similarity": 29.3,
+      "ast_similarity": 20.6,
+      "text_similarity": 52.5
+    },
+    {
+      "file1": "matrix_multiply.c",
+      "file2": "budget_tracker.c",
+      "group": "Matrix Operations vs Budget Management",
+      "is_actual_clone": false,
+      "semantic_similarity": 10.0,
+      "token_similarity": 22.9,
+      "ast_similarity": 33.3,
+      "text_similarity": 50.3
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "inventory_tracker.c",
+      "group": "Fibonacci vs Inventory Management",
+      "is_actual_clone": false,
+      "semantic_similarity": 10.0,
+      "token_similarity": 15.0,
+      "ast_similarity": 40.0,
+      "text_similarity": 41.0
+    }
+  ]
+}

@@ -1,0 +1,2448 @@
+{
+  "generated_at": "2026-06-12T10:51:41.591023",
+  "metrics": {
+    "semantic": {
+      "tp": 30,
+      "tn": 270,
+      "fp": 0,
+      "fn": 0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "accuracy": 100.0,
+      "f1_score": 100.0
+    }
+  },
+  "warnings": [
+    "Negative pair scored too high: budget_tracker.c vs inventory_tracker.c -> 30.0%",
+    "Negative pair scored too high: budget_tracker.c vs student.c -> 30.0%",
+    "Negative pair scored too high: budget_tracker.c vs student.cpp -> 30.0%",
+    "Negative pair scored too high: budget_tracker.c vs student.f90 -> 30.0%",
+    "Negative pair scored too high: budget_tracker.c vs student.rs -> 30.0%",
+    "Negative pair scored too high: inventory_tracker.c vs student.c -> 30.0%",
+    "Negative pair scored too high: inventory_tracker.c vs student.cpp -> 30.0%",
+    "Negative pair scored too high: inventory_tracker.c vs student.f90 -> 30.0%",
+    "Negative pair scored too high: inventory_tracker.c vs student.rs -> 30.0%",
+    "Negative pair scored too high: max_element.c vs searching.c -> 30.0%",
+    "Negative pair scored too high: max_element.c vs sorting.c -> 30.0%",
+    "Negative pair scored too high: max_element.c vs sorting.cpp -> 30.0%",
+    "Negative pair scored too high: max_element.c vs sorting.f90 -> 30.0%",
+    "Negative pair scored too high: max_element.c vs sorting.rs -> 30.0%",
+    "Negative pair scored too high: max_element.cpp vs searching.c -> 30.0%",
+    "Negative pair scored too high: max_element.cpp vs sorting.c -> 30.0%",
+    "Negative pair scored too high: max_element.cpp vs sorting.cpp -> 30.0%",
+    "Negative pair scored too high: max_element.cpp vs sorting.f90 -> 30.0%",
+    "Negative pair scored too high: max_element.cpp vs sorting.rs -> 30.0%",
+    "Negative pair scored too high: max_element.f90 vs searching.c -> 30.0%",
+    "Negative pair scored too high: max_element.f90 vs sorting.c -> 30.0%",
+    "Negative pair scored too high: max_element.f90 vs sorting.cpp -> 30.0%",
+    "Negative pair scored too high: max_element.f90 vs sorting.f90 -> 30.0%",
+    "Negative pair scored too high: max_element.f90 vs sorting.rs -> 30.0%",
+    "Negative pair scored too high: max_element.rs vs searching.c -> 30.0%",
+    "Negative pair scored too high: max_element.rs vs sorting.c -> 30.0%",
+    "Negative pair scored too high: max_element.rs vs sorting.cpp -> 30.0%",
+    "Negative pair scored too high: max_element.rs vs sorting.f90 -> 30.0%",
+    "Negative pair scored too high: max_element.rs vs sorting.rs -> 30.0%"
+  ],
+  "detailed_comparisons": [
+    {
+      "file1": "budget_tracker.c",
+      "file2": "factorial.c",
+      "semantic_similarity": 16.8,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "factorial.cpp",
+      "semantic_similarity": 16.8,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "factorial.f90",
+      "semantic_similarity": 16.8,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "factorial.rs",
+      "semantic_similarity": 14.3,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "fibonacci.c",
+      "semantic_similarity": 15.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "fibonacci.cpp",
+      "semantic_similarity": 15.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "fibonacci.f90",
+      "semantic_similarity": 15.3,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "fibonacci.rs",
+      "semantic_similarity": 15.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "inventory_tracker.c",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "matrix_multiply.c",
+      "semantic_similarity": 11.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "max_element.c",
+      "semantic_similarity": 11.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "max_element.cpp",
+      "semantic_similarity": 11.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "max_element.f90",
+      "semantic_similarity": 11.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "max_element.rs",
+      "semantic_similarity": 9.4,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "searching.c",
+      "semantic_similarity": 12.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "sorting.c",
+      "semantic_similarity": 11.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "sorting.cpp",
+      "semantic_similarity": 11.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "sorting.f90",
+      "semantic_similarity": 11.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "sorting.rs",
+      "semantic_similarity": 8.5,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "student.c",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "student.cpp",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "student.f90",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "student.rs",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "budget_tracker.c",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 13.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "factorial.cpp",
+      "semantic_similarity": 99.6,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "factorial.f90",
+      "semantic_similarity": 99.3,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "factorial.rs",
+      "semantic_similarity": 97.0,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "fibonacci.c",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "fibonacci.cpp",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "fibonacci.f90",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "fibonacci.rs",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "inventory_tracker.c",
+      "semantic_similarity": 16.8,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "matrix_multiply.c",
+      "semantic_similarity": 20.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "max_element.c",
+      "semantic_similarity": 21.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "max_element.cpp",
+      "semantic_similarity": 21.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "max_element.f90",
+      "semantic_similarity": 21.5,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "max_element.rs",
+      "semantic_similarity": 18.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "searching.c",
+      "semantic_similarity": 21.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "sorting.c",
+      "semantic_similarity": 14.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "sorting.cpp",
+      "semantic_similarity": 14.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "sorting.f90",
+      "semantic_similarity": 14.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "sorting.rs",
+      "semantic_similarity": 12.5,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "student.c",
+      "semantic_similarity": 16.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "student.cpp",
+      "semantic_similarity": 19.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "student.f90",
+      "semantic_similarity": 19.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "student.rs",
+      "semantic_similarity": 14.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.c",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 24.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "factorial.f90",
+      "semantic_similarity": 99.3,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "factorial.rs",
+      "semantic_similarity": 97.0,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "fibonacci.c",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "fibonacci.cpp",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "fibonacci.f90",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "fibonacci.rs",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "inventory_tracker.c",
+      "semantic_similarity": 16.8,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "matrix_multiply.c",
+      "semantic_similarity": 20.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "max_element.c",
+      "semantic_similarity": 21.5,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "max_element.cpp",
+      "semantic_similarity": 21.5,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "max_element.f90",
+      "semantic_similarity": 21.5,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "max_element.rs",
+      "semantic_similarity": 18.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "searching.c",
+      "semantic_similarity": 21.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "sorting.c",
+      "semantic_similarity": 14.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "sorting.cpp",
+      "semantic_similarity": 14.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "sorting.f90",
+      "semantic_similarity": 14.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "sorting.rs",
+      "semantic_similarity": 12.5,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "student.c",
+      "semantic_similarity": 16.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "student.cpp",
+      "semantic_similarity": 19.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "student.f90",
+      "semantic_similarity": 19.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "student.rs",
+      "semantic_similarity": 14.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.cpp",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 24.8,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.f90",
+      "file2": "factorial.rs",
+      "semantic_similarity": 96.8,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "factorial.f90",
+      "file2": "fibonacci.c",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.f90",
+      "file2": "fibonacci.cpp",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.f90",
+      "file2": "fibonacci.f90",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.f90",
+      "file2": "fibonacci.rs",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.f90",
+      "file2": "inventory_tracker.c",
+      "semantic_similarity": 16.8,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.f90",
+      "file2": "matrix_multiply.c",
+      "semantic_similarity": 20.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.f90",
+      "file2": "max_element.c",
+      "semantic_similarity": 21.8,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.f90",
+      "file2": "max_element.cpp",
+      "semantic_similarity": 21.8,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.f90",
+      "file2": "max_element.f90",
+      "semantic_similarity": 22.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.f90",
+      "file2": "max_element.rs",
+      "semantic_similarity": 18.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.f90",
+      "file2": "searching.c",
+      "semantic_similarity": 21.4,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.f90",
+      "file2": "sorting.c",
+      "semantic_similarity": 14.8,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.f90",
+      "file2": "sorting.cpp",
+      "semantic_similarity": 14.8,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.f90",
+      "file2": "sorting.f90",
+      "semantic_similarity": 14.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.f90",
+      "file2": "sorting.rs",
+      "semantic_similarity": 12.3,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.f90",
+      "file2": "student.c",
+      "semantic_similarity": 16.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.f90",
+      "file2": "student.cpp",
+      "semantic_similarity": 18.8,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.f90",
+      "file2": "student.f90",
+      "semantic_similarity": 19.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.f90",
+      "file2": "student.rs",
+      "semantic_similarity": 14.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.f90",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 24.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.rs",
+      "file2": "fibonacci.c",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.rs",
+      "file2": "fibonacci.cpp",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.rs",
+      "file2": "fibonacci.f90",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.rs",
+      "file2": "fibonacci.rs",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.rs",
+      "file2": "inventory_tracker.c",
+      "semantic_similarity": 14.3,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.rs",
+      "file2": "matrix_multiply.c",
+      "semantic_similarity": 18.4,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.rs",
+      "file2": "max_element.c",
+      "semantic_similarity": 19.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.rs",
+      "file2": "max_element.cpp",
+      "semantic_similarity": 19.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.rs",
+      "file2": "max_element.f90",
+      "semantic_similarity": 19.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.rs",
+      "file2": "max_element.rs",
+      "semantic_similarity": 21.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.rs",
+      "file2": "searching.c",
+      "semantic_similarity": 19.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.rs",
+      "file2": "sorting.c",
+      "semantic_similarity": 12.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.rs",
+      "file2": "sorting.cpp",
+      "semantic_similarity": 12.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.rs",
+      "file2": "sorting.f90",
+      "semantic_similarity": 12.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.rs",
+      "file2": "sorting.rs",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.rs",
+      "file2": "student.c",
+      "semantic_similarity": 14.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.rs",
+      "file2": "student.cpp",
+      "semantic_similarity": 16.4,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.rs",
+      "file2": "student.f90",
+      "semantic_similarity": 16.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.rs",
+      "file2": "student.rs",
+      "semantic_similarity": 17.3,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "factorial.rs",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 22.3,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "fibonacci.cpp",
+      "semantic_similarity": 98.6,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "fibonacci.f90",
+      "semantic_similarity": 97.9,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "fibonacci.rs",
+      "semantic_similarity": 98.2,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "inventory_tracker.c",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "matrix_multiply.c",
+      "semantic_similarity": 18.4,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "max_element.c",
+      "semantic_similarity": 19.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "max_element.cpp",
+      "semantic_similarity": 19.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "max_element.f90",
+      "semantic_similarity": 18.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "max_element.rs",
+      "semantic_similarity": 21.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "searching.c",
+      "semantic_similarity": 18.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "sorting.c",
+      "semantic_similarity": 11.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "sorting.cpp",
+      "semantic_similarity": 11.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "sorting.f90",
+      "semantic_similarity": 11.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "sorting.rs",
+      "semantic_similarity": 14.5,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "student.c",
+      "semantic_similarity": 16.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "student.cpp",
+      "semantic_similarity": 18.3,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "student.f90",
+      "semantic_similarity": 18.5,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "student.rs",
+      "semantic_similarity": 18.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.c",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 20.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.cpp",
+      "file2": "fibonacci.f90",
+      "semantic_similarity": 97.6,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "fibonacci.cpp",
+      "file2": "fibonacci.rs",
+      "semantic_similarity": 97.8,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "fibonacci.cpp",
+      "file2": "inventory_tracker.c",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.cpp",
+      "file2": "matrix_multiply.c",
+      "semantic_similarity": 18.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.cpp",
+      "file2": "max_element.c",
+      "semantic_similarity": 18.8,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.cpp",
+      "file2": "max_element.cpp",
+      "semantic_similarity": 18.8,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.cpp",
+      "file2": "max_element.f90",
+      "semantic_similarity": 18.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.cpp",
+      "file2": "max_element.rs",
+      "semantic_similarity": 21.4,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.cpp",
+      "file2": "searching.c",
+      "semantic_similarity": 17.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.cpp",
+      "file2": "sorting.c",
+      "semantic_similarity": 12.3,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.cpp",
+      "file2": "sorting.cpp",
+      "semantic_similarity": 12.3,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.cpp",
+      "file2": "sorting.f90",
+      "semantic_similarity": 12.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.cpp",
+      "file2": "sorting.rs",
+      "semantic_similarity": 13.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.cpp",
+      "file2": "student.c",
+      "semantic_similarity": 16.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.cpp",
+      "file2": "student.cpp",
+      "semantic_similarity": 17.8,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.cpp",
+      "file2": "student.f90",
+      "semantic_similarity": 17.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.cpp",
+      "file2": "student.rs",
+      "semantic_similarity": 17.8,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.cpp",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 19.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.f90",
+      "file2": "fibonacci.rs",
+      "semantic_similarity": 99.0,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "fibonacci.f90",
+      "file2": "inventory_tracker.c",
+      "semantic_similarity": 15.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.f90",
+      "file2": "matrix_multiply.c",
+      "semantic_similarity": 17.3,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.f90",
+      "file2": "max_element.c",
+      "semantic_similarity": 17.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.f90",
+      "file2": "max_element.cpp",
+      "semantic_similarity": 17.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.f90",
+      "file2": "max_element.f90",
+      "semantic_similarity": 17.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.f90",
+      "file2": "max_element.rs",
+      "semantic_similarity": 20.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.f90",
+      "file2": "searching.c",
+      "semantic_similarity": 18.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.f90",
+      "file2": "sorting.c",
+      "semantic_similarity": 10.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.f90",
+      "file2": "sorting.cpp",
+      "semantic_similarity": 10.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.f90",
+      "file2": "sorting.f90",
+      "semantic_similarity": 10.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.f90",
+      "file2": "sorting.rs",
+      "semantic_similarity": 13.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.f90",
+      "file2": "student.c",
+      "semantic_similarity": 16.3,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.f90",
+      "file2": "student.cpp",
+      "semantic_similarity": 17.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.f90",
+      "file2": "student.f90",
+      "semantic_similarity": 17.8,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.f90",
+      "file2": "student.rs",
+      "semantic_similarity": 18.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.f90",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 20.5,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.rs",
+      "file2": "inventory_tracker.c",
+      "semantic_similarity": 15.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.rs",
+      "file2": "matrix_multiply.c",
+      "semantic_similarity": 17.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.rs",
+      "file2": "max_element.c",
+      "semantic_similarity": 18.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.rs",
+      "file2": "max_element.cpp",
+      "semantic_similarity": 18.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.rs",
+      "file2": "max_element.f90",
+      "semantic_similarity": 18.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.rs",
+      "file2": "max_element.rs",
+      "semantic_similarity": 20.3,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.rs",
+      "file2": "searching.c",
+      "semantic_similarity": 18.4,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.rs",
+      "file2": "sorting.c",
+      "semantic_similarity": 10.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.rs",
+      "file2": "sorting.cpp",
+      "semantic_similarity": 10.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.rs",
+      "file2": "sorting.f90",
+      "semantic_similarity": 11.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.rs",
+      "file2": "sorting.rs",
+      "semantic_similarity": 14.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.rs",
+      "file2": "student.c",
+      "semantic_similarity": 16.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.rs",
+      "file2": "student.cpp",
+      "semantic_similarity": 17.8,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.rs",
+      "file2": "student.f90",
+      "semantic_similarity": 17.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.rs",
+      "file2": "student.rs",
+      "semantic_similarity": 18.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "fibonacci.rs",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 20.4,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "inventory_tracker.c",
+      "file2": "matrix_multiply.c",
+      "semantic_similarity": 11.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "inventory_tracker.c",
+      "file2": "max_element.c",
+      "semantic_similarity": 11.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "inventory_tracker.c",
+      "file2": "max_element.cpp",
+      "semantic_similarity": 11.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "inventory_tracker.c",
+      "file2": "max_element.f90",
+      "semantic_similarity": 11.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "inventory_tracker.c",
+      "file2": "max_element.rs",
+      "semantic_similarity": 9.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "inventory_tracker.c",
+      "file2": "searching.c",
+      "semantic_similarity": 13.3,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "inventory_tracker.c",
+      "file2": "sorting.c",
+      "semantic_similarity": 12.4,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "inventory_tracker.c",
+      "file2": "sorting.cpp",
+      "semantic_similarity": 12.4,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "inventory_tracker.c",
+      "file2": "sorting.f90",
+      "semantic_similarity": 12.4,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "inventory_tracker.c",
+      "file2": "sorting.rs",
+      "semantic_similarity": 9.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "inventory_tracker.c",
+      "file2": "student.c",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "inventory_tracker.c",
+      "file2": "student.cpp",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "inventory_tracker.c",
+      "file2": "student.f90",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "inventory_tracker.c",
+      "file2": "student.rs",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "inventory_tracker.c",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 11.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "matrix_multiply.c",
+      "file2": "max_element.c",
+      "semantic_similarity": 18.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "matrix_multiply.c",
+      "file2": "max_element.cpp",
+      "semantic_similarity": 18.6,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "matrix_multiply.c",
+      "file2": "max_element.f90",
+      "semantic_similarity": 18.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "matrix_multiply.c",
+      "file2": "max_element.rs",
+      "semantic_similarity": 16.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "matrix_multiply.c",
+      "file2": "searching.c",
+      "semantic_similarity": 27.4,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "matrix_multiply.c",
+      "file2": "sorting.c",
+      "semantic_similarity": 28.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "matrix_multiply.c",
+      "file2": "sorting.cpp",
+      "semantic_similarity": 28.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "matrix_multiply.c",
+      "file2": "sorting.f90",
+      "semantic_similarity": 28.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "matrix_multiply.c",
+      "file2": "sorting.rs",
+      "semantic_similarity": 25.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "matrix_multiply.c",
+      "file2": "student.c",
+      "semantic_similarity": 10.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "matrix_multiply.c",
+      "file2": "student.cpp",
+      "semantic_similarity": 12.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "matrix_multiply.c",
+      "file2": "student.f90",
+      "semantic_similarity": 12.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "matrix_multiply.c",
+      "file2": "student.rs",
+      "semantic_similarity": 10.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "matrix_multiply.c",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 19.4,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.c",
+      "file2": "max_element.cpp",
+      "semantic_similarity": 100.0,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "max_element.c",
+      "file2": "max_element.f90",
+      "semantic_similarity": 99.7,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "max_element.c",
+      "file2": "max_element.rs",
+      "semantic_similarity": 96.7,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "max_element.c",
+      "file2": "searching.c",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.c",
+      "file2": "sorting.c",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.c",
+      "file2": "sorting.cpp",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.c",
+      "file2": "sorting.f90",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.c",
+      "file2": "sorting.rs",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.c",
+      "file2": "student.c",
+      "semantic_similarity": 12.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.c",
+      "file2": "student.cpp",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.c",
+      "file2": "student.f90",
+      "semantic_similarity": 15.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.c",
+      "file2": "student.rs",
+      "semantic_similarity": 11.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.c",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 25.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.cpp",
+      "file2": "max_element.f90",
+      "semantic_similarity": 99.7,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "max_element.cpp",
+      "file2": "max_element.rs",
+      "semantic_similarity": 96.7,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "max_element.cpp",
+      "file2": "searching.c",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.cpp",
+      "file2": "sorting.c",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.cpp",
+      "file2": "sorting.cpp",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.cpp",
+      "file2": "sorting.f90",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.cpp",
+      "file2": "sorting.rs",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.cpp",
+      "file2": "student.c",
+      "semantic_similarity": 12.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.cpp",
+      "file2": "student.cpp",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.cpp",
+      "file2": "student.f90",
+      "semantic_similarity": 15.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.cpp",
+      "file2": "student.rs",
+      "semantic_similarity": 11.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.cpp",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 25.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.f90",
+      "file2": "max_element.rs",
+      "semantic_similarity": 96.7,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "max_element.f90",
+      "file2": "searching.c",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.f90",
+      "file2": "sorting.c",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.f90",
+      "file2": "sorting.cpp",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.f90",
+      "file2": "sorting.f90",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.f90",
+      "file2": "sorting.rs",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.f90",
+      "file2": "student.c",
+      "semantic_similarity": 12.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.f90",
+      "file2": "student.cpp",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.f90",
+      "file2": "student.f90",
+      "semantic_similarity": 15.3,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.f90",
+      "file2": "student.rs",
+      "semantic_similarity": 11.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.f90",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 25.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.rs",
+      "file2": "searching.c",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.rs",
+      "file2": "sorting.c",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.rs",
+      "file2": "sorting.cpp",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.rs",
+      "file2": "sorting.f90",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.rs",
+      "file2": "sorting.rs",
+      "semantic_similarity": 30.0,
+      "classification": "LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.rs",
+      "file2": "student.c",
+      "semantic_similarity": 10.4,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.rs",
+      "file2": "student.cpp",
+      "semantic_similarity": 12.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.rs",
+      "file2": "student.f90",
+      "semantic_similarity": 12.3,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.rs",
+      "file2": "student.rs",
+      "semantic_similarity": 14.3,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "max_element.rs",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 23.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "searching.c",
+      "file2": "sorting.c",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "searching.c",
+      "file2": "sorting.cpp",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "searching.c",
+      "file2": "sorting.f90",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "searching.c",
+      "file2": "sorting.rs",
+      "semantic_similarity": 15.0,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "searching.c",
+      "file2": "student.c",
+      "semantic_similarity": 11.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "searching.c",
+      "file2": "student.cpp",
+      "semantic_similarity": 14.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "searching.c",
+      "file2": "student.f90",
+      "semantic_similarity": 13.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "searching.c",
+      "file2": "student.rs",
+      "semantic_similarity": 11.7,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "searching.c",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 26.5,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "sorting.c",
+      "file2": "sorting.cpp",
+      "semantic_similarity": 100.0,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "sorting.c",
+      "file2": "sorting.f90",
+      "semantic_similarity": 99.2,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "sorting.c",
+      "file2": "sorting.rs",
+      "semantic_similarity": 95.8,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "sorting.c",
+      "file2": "student.c",
+      "semantic_similarity": 12.3,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "sorting.c",
+      "file2": "student.cpp",
+      "semantic_similarity": 14.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "sorting.c",
+      "file2": "student.f90",
+      "semantic_similarity": 14.3,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "sorting.c",
+      "file2": "student.rs",
+      "semantic_similarity": 14.5,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "sorting.c",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 17.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "sorting.cpp",
+      "file2": "sorting.f90",
+      "semantic_similarity": 99.2,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "sorting.cpp",
+      "file2": "sorting.rs",
+      "semantic_similarity": 95.8,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "sorting.cpp",
+      "file2": "student.c",
+      "semantic_similarity": 12.3,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "sorting.cpp",
+      "file2": "student.cpp",
+      "semantic_similarity": 14.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "sorting.cpp",
+      "file2": "student.f90",
+      "semantic_similarity": 14.3,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "sorting.cpp",
+      "file2": "student.rs",
+      "semantic_similarity": 14.5,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "sorting.cpp",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 17.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "sorting.f90",
+      "file2": "sorting.rs",
+      "semantic_similarity": 95.9,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "sorting.f90",
+      "file2": "student.c",
+      "semantic_similarity": 12.3,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "sorting.f90",
+      "file2": "student.cpp",
+      "semantic_similarity": 14.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "sorting.f90",
+      "file2": "student.f90",
+      "semantic_similarity": 14.4,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "sorting.f90",
+      "file2": "student.rs",
+      "semantic_similarity": 14.5,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "sorting.f90",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 17.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "sorting.rs",
+      "file2": "student.c",
+      "semantic_similarity": 9.9,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "sorting.rs",
+      "file2": "student.cpp",
+      "semantic_similarity": 12.4,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "sorting.rs",
+      "file2": "student.f90",
+      "semantic_similarity": 12.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "sorting.rs",
+      "file2": "student.rs",
+      "semantic_similarity": 17.8,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "sorting.rs",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 16.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "student.c",
+      "file2": "student.cpp",
+      "semantic_similarity": 96.6,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "student.c",
+      "file2": "student.f90",
+      "semantic_similarity": 96.6,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "student.c",
+      "file2": "student.rs",
+      "semantic_similarity": 90.1,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "student.c",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 12.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "student.cpp",
+      "file2": "student.f90",
+      "semantic_similarity": 99.2,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "student.cpp",
+      "file2": "student.rs",
+      "semantic_similarity": 92.1,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "student.cpp",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 14.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "student.f90",
+      "file2": "student.rs",
+      "semantic_similarity": 92.0,
+      "classification": "HIGH SIMILARITY CLONE",
+      "actual_clone": true,
+      "predicted_clone": true
+    },
+    {
+      "file1": "student.f90",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 14.1,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    },
+    {
+      "file1": "student.rs",
+      "file2": "vowel_counter.c",
+      "semantic_similarity": 12.2,
+      "classification": "VERY LOW SIMILARITY",
+      "actual_clone": false,
+      "predicted_clone": false
+    }
+  ]
+}

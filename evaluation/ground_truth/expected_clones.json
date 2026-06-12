@@ -1,0 +1,74 @@
+{
+  "factorial.c": {
+    "expected_clones": ["factorial.cpp", "factorial.rs", "factorial.f90"]
+  },
+  "factorial.cpp": {
+    "expected_clones": ["factorial.c", "factorial.rs", "factorial.f90"]
+  },
+  "factorial.rs": {
+    "expected_clones": ["factorial.c", "factorial.cpp", "factorial.f90"]
+  },
+  "factorial.f90": {
+    "expected_clones": ["factorial.c", "factorial.cpp", "factorial.rs"]
+  },
+  "fibonacci.c": {
+    "expected_clones": ["fibonacci.cpp", "fibonacci.rs", "fibonacci.f90"]
+  },
+  "fibonacci.cpp": {
+    "expected_clones": ["fibonacci.c", "fibonacci.rs", "fibonacci.f90"]
+  },
+  "fibonacci.rs": {
+    "expected_clones": ["fibonacci.c", "fibonacci.cpp", "fibonacci.f90"]
+  },
+  "fibonacci.f90": {
+    "expected_clones": ["fibonacci.c", "fibonacci.cpp", "fibonacci.rs"]
+  },
+  "max_element.c": {
+    "expected_clones": ["max_element.cpp", "max_element.rs", "max_element.f90"]
+  },
+  "max_element.cpp": {
+    "expected_clones": ["max_element.c", "max_element.rs", "max_element.f90"]
+  },
+  "max_element.rs": {
+    "expected_clones": ["max_element.c", "max_element.cpp", "max_element.f90"]
+  },
+  "max_element.f90": {
+    "expected_clones": ["max_element.c", "max_element.cpp", "max_element.rs"]
+  },
+  "sorting.c": {
+    "expected_clones": ["sorting.cpp", "sorting.rs", "sorting.f90"]
+  },
+  "sorting.cpp": {
+    "expected_clones": ["sorting.c", "sorting.rs", "sorting.f90"]
+  },
+  "sorting.rs": {
+    "expected_clones": ["sorting.c", "sorting.cpp", "sorting.f90"]
+  },
+  "sorting.f90": {
+    "expected_clones": ["sorting.c", "sorting.cpp", "sorting.rs"]
+  },
+  "student.c": {
+    "expected_clones": ["student.cpp", "student.rs", "student.f90"]
+  },
+  "student.cpp": {
+    "expected_clones": ["student.c", "student.rs", "student.f90"]
+  },
+  "student.rs": {
+    "expected_clones": ["student.c", "student.cpp", "student.f90"]
+  },
+  "student.f90": {
+    "expected_clones": ["student.c", "student.cpp", "student.rs"]
+  },
+  "vowel_counter.c": {
+    "expected_clones": []
+  },
+  "searching.c": {
+    "expected_clones": []
+  },
+  "budget_tracker.c": {
+    "expected_clones": []
+  },
+  "inventory_tracker.c": {
+    "expected_clones": []
+  }
+}

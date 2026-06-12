@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  clone-detector:
+    build: .
+    container_name: semantic-clone-detector
+    ports:
+      - "8000:8000"
+      - "5173:5173"
+    volumes:
+      - ./outputs:/app/outputs
+    environment:
+      - HOST=0.0.0.0
+    restart: unless-stopped

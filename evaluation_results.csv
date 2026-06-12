@@ -1,0 +1,36 @@
+File1,File2,Group,Is Actual Clone,Semantic Score,Token Score,AST Score,Text Score
+factorial.c,factorial.cpp,Factorial,True,100.6,58.8,55.6,85.7
+factorial.c,factorial.rs,Factorial,True,98.9,18.2,22.2,19.8
+factorial.c,factorial.f90,Factorial,True,100.2,27.3,18.2,39.4
+factorial.cpp,factorial.rs,Factorial,True,98.9,16.7,28.6,19.3
+factorial.cpp,factorial.f90,Factorial,True,100.2,35.3,22.2,33.2
+factorial.rs,factorial.f90,Factorial,True,98.9,15.8,14.3,0.0
+fibonacci.c,fibonacci.cpp,Fibonacci,True,100.2,63.2,46.7,64.1
+fibonacci.c,fibonacci.rs,Fibonacci,True,100.2,33.3,66.7,47.3
+fibonacci.c,fibonacci.f90,Fibonacci,True,97.5,40.0,33.3,46.4
+fibonacci.cpp,fibonacci.rs,Fibonacci,True,100.2,36.7,40.0,45.6
+fibonacci.cpp,fibonacci.f90,Fibonacci,True,97.5,38.5,15.8,40.4
+fibonacci.rs,fibonacci.f90,Fibonacci,True,97.5,36.4,36.4,57.5
+max_element.c,max_element.cpp,Maximum Element,True,101.0,100.0,100.0,100.0
+max_element.c,max_element.rs,Maximum Element,True,98.9,29.6,72.7,61.6
+max_element.c,max_element.f90,Maximum Element,True,100.2,37.5,26.7,36.2
+max_element.cpp,max_element.rs,Maximum Element,True,98.9,29.6,72.7,61.6
+max_element.cpp,max_element.f90,Maximum Element,True,100.2,37.5,26.7,36.2
+max_element.rs,max_element.f90,Maximum Element,True,98.9,22.6,23.1,32.2
+sorting.c,sorting.cpp,Sorting,True,101.0,100.0,100.0,100.0
+sorting.c,sorting.rs,Sorting,True,98.9,40.7,52.4,61.3
+sorting.c,sorting.f90,Sorting,True,100.2,46.2,25.9,32.4
+sorting.cpp,sorting.rs,Sorting,True,98.9,40.7,52.4,61.3
+sorting.cpp,sorting.f90,Sorting,True,100.2,46.2,25.9,32.4
+sorting.rs,sorting.f90,Sorting,True,98.9,31.2,26.3,12.5
+student.c,student.cpp,Student Management,True,100.2,65.8,84.8,96.7
+student.c,student.rs,Student Management,True,95.6,19.0,12.1,38.8
+student.c,student.f90,Student Management,True,100.2,28.3,23.8,41.1
+student.cpp,student.rs,Student Management,True,95.6,20.8,14.3,39.1
+student.cpp,student.f90,Student Management,True,100.2,39.0,27.0,42.9
+student.rs,student.f90,Student Management,True,95.6,12.5,4.5,20.8
+max_element.c,vowel_counter.c,Maximum Element vs Vowel Counter,False,10.0,30.6,33.3,62.6
+sorting.c,searching.c,Sorting vs Searching,False,10.0,34.5,36.0,55.3
+factorial.c,student.c,Factorial vs Student Management,False,10.0,29.3,20.6,52.5
+matrix_multiply.c,budget_tracker.c,Matrix Operations vs Budget Management,False,10.0,22.9,33.3,50.3
+fibonacci.c,inventory_tracker.c,Fibonacci vs Inventory Management,False,10.0,15.0,40.0,41.0

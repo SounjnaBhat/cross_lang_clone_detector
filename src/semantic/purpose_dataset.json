@@ -1,0 +1,302 @@
+{
+  "domains": {
+    "Numeric": {
+      "intents": {
+        "Factorial": {
+          "description": "Computes the factorial of a positive integer.",
+          "templates": ["factorial", "factorial_recursive", "factorial_iterative", "fact"],
+          "input_type": "integer",
+          "output_type": "integer",
+          "transformation": "multiplicative_accumulation",
+          "data_structure": "scalar",
+          "patterns": ["ACCUMULATION", "RECURSION", "MULTIPLICATIVE_ACCUMULATION"]
+        },
+        "Fibonacci": {
+          "description": "Computes the Fibonacci number at sequence index n.",
+          "templates": ["fibonacci", "fib", "fibonacci_recursive", "fibonacci_iterative"],
+          "input_type": "integer",
+          "output_type": "integer",
+          "transformation": "additive_sequence",
+          "data_structure": "scalar",
+          "patterns": ["ACCUMULATION", "RECURSION"]
+        },
+        "Prime": {
+          "description": "Checks if a number is prime.",
+          "templates": ["is_prime", "prime_check", "prime"],
+          "input_type": "integer",
+          "output_type": "boolean",
+          "transformation": "primality_test",
+          "data_structure": "scalar",
+          "patterns": ["SELECTION", "TRAVERSAL"]
+        },
+        "GCD": {
+          "description": "Calculates the greatest common divisor of two integers.",
+          "templates": ["gcd", "greatest_common_divisor"],
+          "input_type": "integer_pair",
+          "output_type": "integer",
+          "transformation": "euclidean_division",
+          "data_structure": "scalar",
+          "patterns": ["TRAVERSAL", "ACCUMULATION"]
+        },
+        "LCM": {
+          "description": "Calculates the least common multiple of two integers.",
+          "templates": ["lcm", "least_common_multiple"],
+          "input_type": "integer_pair",
+          "output_type": "integer",
+          "transformation": "lcm_calculation",
+          "data_structure": "scalar",
+          "patterns": ["ACCUMULATION"]
+        },
+        "Power": {
+          "description": "Computes base raised to exponent power.",
+          "templates": ["power", "exponentiate", "pow"],
+          "input_type": "integer_pair",
+          "output_type": "integer",
+          "transformation": "multiplicative_accumulation",
+          "data_structure": "scalar",
+          "patterns": ["MULTIPLICATIVE_ACCUMULATION"]
+        },
+        "Matrix Operations": {
+          "description": "Performs operations like multiplication or addition on matrices.",
+          "templates": ["matrix_multiply", "matrix_add", "matrix"],
+          "input_type": "matrices",
+          "output_type": "matrix",
+          "transformation": "matrix_transformation",
+          "data_structure": "array_2d",
+          "patterns": ["TRAVERSAL", "ACCUMULATION"]
+        }
+      }
+    },
+    "Array": {
+      "intents": {
+        "Maximum Element": {
+          "description": "Finds the largest element in an array.",
+          "templates": ["find_max", "maximum_element", "largest_element", "max_element", "max"],
+          "input_type": "array",
+          "output_type": "integer",
+          "transformation": "selection",
+          "data_structure": "array",
+          "patterns": ["SELECTION", "TRAVERSAL"]
+        },
+        "Minimum Element": {
+          "description": "Finds the smallest element in an array.",
+          "templates": ["find_min", "minimum_element", "smallest_element", "min_element", "min"],
+          "input_type": "array",
+          "output_type": "integer",
+          "transformation": "selection",
+          "data_structure": "array",
+          "patterns": ["SELECTION", "TRAVERSAL"]
+        },
+        "Sorting": {
+          "description": "Sorts an array in ascending order.",
+          "templates": ["bubble_sort", "insertion_sort", "merge_sort", "quick_sort", "sort", "sorting"],
+          "input_type": "array",
+          "output_type": "array",
+          "transformation": "sorting",
+          "data_structure": "array",
+          "patterns": ["SORTING", "TRAVERSAL"]
+        },
+        "Searching": {
+          "description": "Searches for a target value in an array.",
+          "templates": ["binary_search", "linear_search", "search", "searching"],
+          "input_type": "array_and_target",
+          "output_type": "integer",
+          "transformation": "searching",
+          "data_structure": "array",
+          "patterns": ["SEARCHING", "TRAVERSAL"]
+        },
+        "Frequency Count": {
+          "description": "Counts frequency of elements in a collection.",
+          "templates": ["frequency_count", "element_frequency", "count_occurrences"],
+          "input_type": "array",
+          "output_type": "map",
+          "transformation": "counting",
+          "data_structure": "array",
+          "patterns": ["COUNTING", "TRAVERSAL"]
+        }
+      }
+    },
+    "String": {
+      "intents": {
+        "Vowel Counter": {
+          "description": "Counts the number of vowels in a string.",
+          "templates": ["count_vowels", "vowel_counter", "vowels"],
+          "input_type": "string",
+          "output_type": "integer",
+          "transformation": "counting",
+          "data_structure": "string",
+          "patterns": ["COUNTING", "TRAVERSAL"]
+        },
+        "Palindrome": {
+          "description": "Checks if a string is a palindrome.",
+          "templates": ["is_palindrome", "palindrome_check", "palindrome"],
+          "input_type": "string",
+          "output_type": "boolean",
+          "transformation": "symmetry_check",
+          "data_structure": "string",
+          "patterns": ["TRAVERSAL", "SELECTION"]
+        },
+        "Reverse String": {
+          "description": "Reverses the order of characters in a string.",
+          "templates": ["reverse_string", "string_reverse", "reverse"],
+          "input_type": "string",
+          "output_type": "string",
+          "transformation": "inversion",
+          "data_structure": "string",
+          "patterns": ["TRAVERSAL", "RECORD_PROCESSING"]
+        },
+        "Substring Matching": {
+          "description": "Checks if a substring matches within a text.",
+          "templates": ["string_match", "substring_match", "strstr", "search_substring"],
+          "input_type": "string_pair",
+          "output_type": "integer",
+          "transformation": "searching",
+          "data_structure": "string",
+          "patterns": ["SEARCHING", "TRAVERSAL"]
+        }
+      }
+    },
+    "Record Management": {
+      "intents": {
+        "Student Management": {
+          "description": "Stores student records, calculates average marks, sorts students by marks, and identifies the topper.",
+          "templates": ["student_management", "students", "student"],
+          "input_type": "student_records",
+          "output_type": "sorted_student_records",
+          "transformation": "record_analysis",
+          "data_structure": "struct_array",
+          "patterns": ["RECORD_PROCESSING", "SORTING", "ACCUMULATION"]
+        },
+        "Employee Management": {
+          "description": "Manages employee payroll records and salaries.",
+          "templates": ["employee_management", "employees", "employee"],
+          "input_type": "employee_records",
+          "output_type": "payroll_report",
+          "transformation": "record_analysis",
+          "data_structure": "struct_array",
+          "patterns": ["RECORD_PROCESSING", "ACCUMULATION"]
+        },
+        "Inventory Management": {
+          "description": "Tracks warehouse product stock, total valuation, and items needing reorder.",
+          "templates": ["inventory_management", "inventory", "stock_manager"],
+          "input_type": "product_records",
+          "output_type": "inventory_summary",
+          "transformation": "record_analysis",
+          "data_structure": "struct_array",
+          "patterns": ["RECORD_PROCESSING", "SELECTION"]
+        },
+        "Budget Management": {
+          "description": "Tracks income and expenses to output a net balance sheet summary.",
+          "templates": ["budget_management", "budget", "finance_tracker"],
+          "input_type": "transaction_records",
+          "output_type": "balance_summary",
+          "transformation": "record_analysis",
+          "data_structure": "struct_array",
+          "patterns": ["RECORD_PROCESSING", "ACCUMULATION"]
+        }
+      }
+    },
+    "Graph": {
+      "intents": {
+        "BFS": {
+          "description": "Performs Breadth First Search traversal on a graph.",
+          "templates": ["bfs", "breadth_first_search"],
+          "input_type": "graph_and_root",
+          "output_type": "traversal_order",
+          "transformation": "graph_traversal",
+          "data_structure": "adjacency_list",
+          "patterns": ["GRAPH_EXPLORATION", "TRAVERSAL"]
+        },
+        "DFS": {
+          "description": "Performs Depth First Search traversal on a graph.",
+          "templates": ["dfs", "depth_first_search"],
+          "input_type": "graph_and_root",
+          "output_type": "traversal_order",
+          "transformation": "graph_traversal",
+          "data_structure": "adjacency_list",
+          "patterns": ["GRAPH_EXPLORATION", "TRAVERSAL", "RECURSION"]
+        },
+        "Dijkstra": {
+          "description": "Finds shortest paths in a weighted graph.",
+          "templates": ["dijkstra", "shortest_path"],
+          "input_type": "graph_and_source",
+          "output_type": "shortest_path_costs",
+          "transformation": "path_optimization",
+          "data_structure": "adjacency_matrix",
+          "patterns": ["GRAPH_EXPLORATION", "TRAVERSAL", "SELECTION"]
+        },
+        "A-Star": {
+          "description": "Finds the shortest path on a graph or grid using heuristics.",
+          "templates": ["a_star", "astar", "pathfinding", "a*"],
+          "input_type": "grid_and_heuristic",
+          "output_type": "shortest_path",
+          "transformation": "heuristic_path_optimization",
+          "data_structure": "grid_or_graph",
+          "patterns": ["GRAPH_EXPLORATION", "HEURISTIC_EVALUATION", "SELECTION"]
+        }
+      }
+    },
+    "Tree": {
+      "intents": {
+        "BST": {
+          "description": "Implements binary search tree insertion and lookup.",
+          "templates": ["bst", "binary_search_tree", "bst_insert"],
+          "input_type": "tree_and_val",
+          "output_type": "modified_tree",
+          "transformation": "tree_manipulation",
+          "data_structure": "node_links",
+          "patterns": ["TREE_MANIPULATION", "RECURSION"]
+        },
+        "AVL": {
+          "description": "Implements balanced AVL tree rotations and insert operations.",
+          "templates": ["avl", "avl_tree", "avl_insert"],
+          "input_type": "tree_and_val",
+          "output_type": "modified_tree",
+          "transformation": "tree_manipulation",
+          "data_structure": "node_links",
+          "patterns": ["TREE_MANIPULATION", "RECURSION", "SELECTION"]
+        },
+        "Traversals": {
+          "description": "Traverses binary tree nodes in in-order, pre-order, or post-order.",
+          "templates": ["inorder", "preorder", "postorder", "tree_traversal"],
+          "input_type": "tree",
+          "output_type": "traversal_order",
+          "transformation": "tree_manipulation",
+          "data_structure": "node_links",
+          "patterns": ["TREE_MANIPULATION", "RECURSION", "TRAVERSAL"]
+        }
+      }
+    },
+    "Dynamic Programming": {
+      "intents": {
+        "Knapsack": {
+          "description": "Solves the 0-1 Knapsack optimal selection problem.",
+          "templates": ["knapsack", "solve_knapsack", "dp_knapsack"],
+          "input_type": "weights_values_capacity",
+          "output_type": "integer",
+          "transformation": "optimization",
+          "data_structure": "array_2d",
+          "patterns": ["DYNAMIC_PROGRAMMING", "SELECTION", "TRAVERSAL"]
+        },
+        "LCS": {
+          "description": "Computes longest common subsequence length.",
+          "templates": ["lcs", "longest_common_subsequence"],
+          "input_type": "string_pair",
+          "output_type": "integer",
+          "transformation": "optimization",
+          "data_structure": "array_2d",
+          "patterns": ["DYNAMIC_PROGRAMMING", "SELECTION", "TRAVERSAL"]
+        },
+        "LIS": {
+          "description": "Computes longest increasing subsequence length.",
+          "templates": ["lis", "longest_increasing_subsequence"],
+          "input_type": "array",
+          "output_type": "integer",
+          "transformation": "optimization",
+          "data_structure": "array",
+          "patterns": ["DYNAMIC_PROGRAMMING", "SELECTION", "TRAVERSAL"]
+        }
+      }
+    }
+  }
+}
